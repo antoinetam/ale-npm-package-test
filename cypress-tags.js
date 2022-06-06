@@ -50,13 +50,13 @@ if (!envGlob) {
     } else {
       specGlob = `${integrationFolder}/**/*.feature`;
     }
-    console.log("Using cypress.json configuration:");
+    console.log("Using cypress.config.json configuration:");
     console.log("Spec files: ", specGlob);
     if (ignoreGlob) console.log("Ignored files: ", ignoreGlob);
   } catch (err) {
     usingCypressConf = false;
     specGlob = "cypress/integration/**/*.feature";
-    console.log("Failed to read cypress.json, using default configuration");
+    console.log("Failed to read cypress.config.json, using default configuration");
     console.log("Spec files: ", specGlob);
   }
 }
