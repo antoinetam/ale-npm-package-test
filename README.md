@@ -1,0 +1,1 @@
+# ale-npm-package-test
