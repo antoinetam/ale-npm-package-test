@@ -1,6 +1,6 @@
 {
-  "name": "ale-npm-package-test",
-  "version": "0.0.1",
+  "name": "ale-package",
+  "version": "0.0.2",
   "description": "ale package",
   "main": "lib/index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/antoinetam/ale-npm-package-test.git"
+    "url": "https://github.com/antoinetam/ale-package.git"
   },
   "keywords": [
     "ale"
@@ -36,9 +36,9 @@
   "author": "Antoine LE",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/antoinetam/ale-npm-package-test/issues"
+    "url": "https://github.com/antoinetam/ale-package/issues"
   },
-  "homepage": "https://github.com/antoinetam/ale-npm-package-test#readme",
+  "homepage": "https://github.com/antoinetam/ale-package#readme",
   "dependencies": {
     "@cypress/browserify-preprocessor": "^3.0.2",
     "chai": "^4.2.0",
